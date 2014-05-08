@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<Context>
+		<Resource name="jdbc/TAXDB"
+		    auth="Container" type="javax.sql.DataSource"
+			driverClassName="com.mysql.jdbc.Driver"
+			maxActive="100"
+			maxIdle="40"
+			maxWait="12000"			
+			username="root"
+			password="root"
+			url="jdbc:mysql://localhost:3306/TAXDB?useUnicode=true&amp;characterEncoding=UTF-8" />
+</Context>
